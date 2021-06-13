@@ -1,6 +1,6 @@
 # rc.local
 
-Brings back `/etc/rc.local` functionality to newer SystemD based Linux
+Brings `/etc/rc.local` functionality to newer SystemD-based Linux
 distributions.
 
 ## Why rc.local?
