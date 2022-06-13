@@ -1,0 +1,13 @@
+#!/bin/sh
+
+description="bring back /etc/rc.local"
+
+depend()
+{
+	before dev modules
+}
+
+start()
+{
+	/bin/sh /etc/rc.local
+}
