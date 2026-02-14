@@ -1,4 +1,7 @@
-#!/bin/sh
+#!/sbin/openrc-run
+#
+# https://github.com/mitchweaver/rclocal
+# =======================================
 
 description="bring back /etc/rc.local"
 
@@ -11,3 +14,4 @@ start()
 {
 	/bin/sh /etc/rc.local
 }
+
